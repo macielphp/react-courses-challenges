@@ -69,7 +69,6 @@ function App() {
     } 
   };
 
-  // ✅ Captura tecla pressionada globalmente
   useEffect(() => {
     const handleKeyDown = (event) => {
       let key = event.key;
